@@ -12,6 +12,7 @@ public class Thread2 implements Runnable{
         try {
              mu.getMultiples(3);
         } catch (Exception e) {
+            
             // TODO: handle exception
             System.out.println(e);
         }
